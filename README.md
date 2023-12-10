@@ -1,16 +1,18 @@
-# interest_calculator
+# Interest Calculator
 
-A new Flutter project.
+<h4>Build With Flutter</h4>
 
-## Getting Started
+<h1>App Preview</h1>
 
-This project is a starting point for a Flutter application.
+<table style="width:100%">
+  <tr>
+    <th>Home Screen</th>
+    <th>Calculation</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/MdAshrafUllah/interest-calculator/assets/96839511/26e9e914-8e4f-44e9-a547-a34eaf454cbc" width="200" height="380"></td>
+    <td><img src="https://github.com/MdAshrafUllah/interest-calculator/assets/96839511/fd68e32f-1304-4885-bfae-e10916901949" width="200" height="380"></td>
+  </tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h4>Thank you for visiting</h4>
