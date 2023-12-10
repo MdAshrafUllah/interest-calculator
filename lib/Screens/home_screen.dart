@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -42,6 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TextFormField(
               keyboardType: TextInputType.number,
               controller: principalController,
+              inputFormatters: [FilteringTextInputFormatter.digitsOnly],
               validator: (value) {
                 if (value!.isEmpty) {
                   return "please Enter The Principal Amount";
@@ -61,6 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TextFormField(
               keyboardType: TextInputType.number,
               controller: rateController,
+              inputFormatters: [FilteringTextInputFormatter.digitsOnly],
               validator: (value) {
                 if (value!.isEmpty) {
                   return "please Enter The Interest Amount";
@@ -82,6 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Expanded(
                   child: TextFormField(
                     keyboardType: TextInputType.number,
+                    inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                     controller: termController,
                     validator: (value) {
                       if (value!.isEmpty) {
